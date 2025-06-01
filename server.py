@@ -1,11 +1,13 @@
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from flask import Flask, request, jsonify, send_from_directory
-from src.json_utils import load_tasks, save_tasks, load_keys
+from json_utils import load_tasks, save_tasks, load_keys
 from config import DOWNLOAD_DIR
-import src.yt_handler as yt_handler
-import src.auth as auth
+import yt_handler as yt_handler
+import auth as auth
 import random
 import string
-import os
 import json
 
 app = Flask(__name__)

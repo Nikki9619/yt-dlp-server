@@ -10,4 +10,4 @@ RUN apt update && \
 
 COPY . .
 
-CMD ["python", "src/server.py"]
+CMD ["python", "server.py"]
