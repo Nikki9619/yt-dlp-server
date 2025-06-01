@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+downloads/
+test.py
+.git/
+.gitignore
+.dockerignore 
