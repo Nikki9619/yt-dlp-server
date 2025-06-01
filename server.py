@@ -1,4 +1,3 @@
-print("SCRAPER_API_KEY:", os.getenv("SCRAPER_API_KEY"))
 import os
 import requests
 from flask import Flask, request, jsonify
